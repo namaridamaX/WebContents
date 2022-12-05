@@ -25,7 +25,7 @@ nav {
   /* background: #2275b8; */
 }
 .log-box{
-  margin-left: auto;
+  margin-left: 3%;
   margin-right: auto;
   margin-top: auto;
   margin-bottom: auto;
@@ -42,4 +42,56 @@ nav {
 .log-3{
   text-align: center;
   font-size: large;
+}
+#philosophy{
+
+}
+.philosophy-1{
+  font-size: xx-large;
+  margin-top: 10%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 70%;
+  height: 75%;
+}
+.philosophy-2{
+  font-size: x-large;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 70%;
+  height: 75%;
+}
+.img{
+  margin-top: 10%;
+  text-align: center;
+}
+.achievements{
+  margin-top: 10%;
+  font-size: xx-large;
+  color: black;
+  text-align: center;
+  text-decoration:underline;
+}
+.information{
+  margin-top: 10%;
+  font-size: xx-large;
+  color: black;
+  text-align: center;
+  text-decoration:underline;
+}
+.introduction{
+  margin-top: 10%;
+  font-size: xx-large;
+  color: black;
+  text-align: center;
+  text-decoration:underline;
+}
+.contact{
+  margin-top: 10%;
+  font-size: xx-large;
+  color: black;
+  text-align: center;
+  text-decoration:underline;
 }
