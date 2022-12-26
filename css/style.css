@@ -1,7 +1,7 @@
 nav {
     width: 100%;
-    height: 150px;
-    background-color: black;
+    height: 80px;
+    background-color: white;
     padding-top: 5px;
     box-sizing: border-box;
     display: flex;
@@ -12,11 +12,12 @@ nav {
   li {
     list-style: none;
   }
-  a {
+.nav-box  a {
     display: block;
     text-decoration: none;
-    color: white;
+    color: black;
     margin-right: 35px;
+    font-family: '游明朝';
   }
 .nav-box{
   margin-left: auto;
@@ -25,7 +26,7 @@ nav {
   /* background: #2275b8; */
 }
 .log-box{
-  margin-left: 3%;
+  margin-left: 47.5%;
   margin-right: auto;
   margin-top: auto;
   margin-bottom: auto;
@@ -39,33 +40,44 @@ nav {
   text-align: center;
   font-size: xx-large;
 }
-.log-3{
+.log_img{
   text-align: center;
+}
+.sub{
+  text-align: center;
+  margin-top: 15%;
+  margin-bottom: 15%;
+}
+#txt{
+  font-size:xx-large;
+  font-family: '游明朝';
+}
+.greeting_box{
+  display: flex;
+  align-items: center;
+  margin-bottom: 5%;
+}
+#greeting_img{
+ text-align: right;
+ 
+}
+.greeting_box img{
+  width: 40%;
+  height: 40%;
+  text-align: right;
+}
+#greeting{
+  font-family: '游明朝';
   font-size: large;
 }
-#philosophy{
-
+#name{
+  font-size:x-large;
 }
-.philosophy-1{
-  font-size: xx-large;
-  margin-top: 10%;
-  margin-left: auto;
-  margin-right: auto;
+.comment_box{
   text-align: center;
-  width: 70%;
-  height: 75%;
 }
-.philosophy-2{
+#comment{
   font-size: x-large;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-  width: 70%;
-  height: 75%;
-}
-.img{
-  margin-top: 10%;
-  text-align: center;
 }
 .achievements{
   margin-top: 10%;
