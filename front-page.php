@@ -61,7 +61,7 @@
       <a class="achievements" href="<?php echo esc_url( home_url( '/' ) ); ?>achievements">活動実績</a>
     </div>
 
-    <div class="box11">
+    <div class="box12">
       <a class="information" href="<?php echo esc_url( home_url( '/' ) ); ?>information">英会話情報</a>
     </div>
   </div>
@@ -71,7 +71,7 @@
       <a class="introduction" href="<?php echo esc_url( home_url( '/' ) ); ?>introduction">講師の紹介</a>
     </div>
 
-    <div class="box11">
+    <div class="box12">
       <a class="contact" href="<?php echo esc_url( home_url( '/' ) ); ?>contact">お問い合わせ</a>
     </div>
   </div>

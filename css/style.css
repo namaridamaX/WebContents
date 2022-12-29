@@ -1,5 +1,6 @@
 body{
   background-color: whitesmoke;
+  background: linear-gradient(to top, #000, #000) repeat-y center/1px;
 }
 nav {
     width: 100%;
@@ -48,24 +49,24 @@ nav {
 .greeting{
   align-items: center;
   background-color: darkgrey;
-  padding: 8%;
+  padding: 10vw;
 }
 .greeting_box{
-  width: 100%;
+  width: 80vw;
   display: flex;
   align-items: center;
 }
 .greeting_img{
-  width: 45%;
+  width: 32vw;
   text-align: right;
 }
 .greeting_box img{
-  width: 50%;
+  width: 20vw;
 }
 #greeting{
   font-family: '游明朝';
   font-size: 90%;
-  width: 40%;
+  width: 40vw;
 }
 #name{
   font-size: 150%;
@@ -111,9 +112,18 @@ nav {
   text-decoration:underline;
 }
 .box11{
-  width: 35%;
+  width: 35vw;
   padding: 0.5em 1em;
-  margin: 2em 0;
+  margin: 2em 0 0 0;
+  color: #5d627b;
+  background: white;
+  border-top: solid 5px #5d627b;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.22);
+}
+.box12{
+  width: 35vw;
+  padding: 0.5em 1em;
+  margin: 2em 0 0 10vw;
   color: #5d627b;
   background: white;
   border-top: solid 5px #5d627b;
@@ -123,11 +133,15 @@ nav {
   margin: 0; 
   padding: 0;
 }
+.box12 a {
+  margin: 0; 
+  padding: 0;
+}
 .box{
   display: flex;
   align-items: center;
   text-align: center;
-  margin-left: 10%;
-  padding: 10%;
+  /* margin-left: 10%; */
+  padding: 10vw;
   /* background-color: #5d627b; */
 }
