@@ -58,21 +58,28 @@
 
   <div class="box">
     <div class="box11">
-      <a class="achievements" href="<?php echo esc_url( home_url( '/' ) ); ?>achievements">活動実績</a>
+      <h1>活動実績<br></h1>
+      <p>
+        ここに文章を書いていく
+      </p>
+      <a href="<?php echo esc_url( home_url( '/' ) ); ?>achievements" class="btn-border-bottom">詳しくはこちら</a>
     </div>
 
     <div class="box12">
-      <a class="information" href="<?php echo esc_url( home_url( '/' ) ); ?>information">英会話情報</a>
+      <h1>英会話情報<br></h1>
+      <a href="<?php echo esc_url( home_url( '/' ) ); ?>information" class="btn-border-bottom">詳しくはこちら</a>
     </div>
   </div>
   
   <div class="box">
     <div class="box11">
-      <a class="introduction" href="<?php echo esc_url( home_url( '/' ) ); ?>introduction">講師の紹介</a>
+      <h1>講師の紹介<br></h1>
+      <a href="<?php echo esc_url( home_url( '/' ) ); ?>introduction" class="btn-border-bottom">詳しくはこちら</a>
     </div>
 
     <div class="box12">
-      <a class="contact" href="<?php echo esc_url( home_url( '/' ) ); ?>contact">お問い合わせ</a>
+      <h1>お問い合わせ<br></h1>
+      <a href="<?php echo esc_url( home_url( '/' ) ); ?>contact" class="btn-border-bottom">詳しくはこちら</a>
     </div>
   </div>
  
