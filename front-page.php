@@ -1,17 +1,18 @@
 <?php get_header(); ?>
 
-
-  <nav>
-    <div class="nav-box">
-      <ul>
-        <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>achievements">活動実績</a></li>
-        <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>information">英会話情報</a></li>
-        <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>introduction">講師の紹介</a></li>
-        <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>contact">お問い合わせ</a></li>
-      </ul>
-    </div>
-  </nav>
-
+  <header>
+    <nav>
+      <div class="nav-box">
+        <ul>
+          <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>achievements">活動実績</a></li>
+          <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>information">英会話情報</a></li>
+          <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>introduction">講師の紹介</a></li>
+          <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>contact">お問い合わせ</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  
   <div class="log_img">
     <img src="<?php echo get_theme_file_uri('img\log.jpg'); ?>" alt="" />
   </div>
@@ -23,6 +24,47 @@
       余剰の利益に関しましては海外の子ども支援をしているNPO法人様に寄付しております。
     </div>
   </div>
+
+  
+  <div class="box">
+    <div class="box11">
+      <h1>活動実績<br></h1>
+      <p>
+        ここに文章を書いていく
+      </p>
+      <a href="<?php echo esc_url( home_url( '/' ) ); ?>achievements" class="btn-border-bottom">詳しくはこちら</a>
+    </div>
+    
+    <div class="box_img2">
+      <img src="<?php echo get_theme_file_uri('img\S__100810779.jpg'); ?>" alt="" />
+    </div>
+  </div>
+  
+  <div class="box">
+    <div class="box_img1">
+      <img src="<?php echo get_theme_file_uri('img\S__100810780.jpg'); ?>" alt="" />
+    </div>
+    
+    <div class="box12">
+      <h1>英会話情報<br></h1>
+          <h2>コース内容</h2>
+            <h3>①月額1000円コース</h3>
+              <p>
+                オンライン英会話8回・朝活English(フリートーク)4回・文法レッスン2回・個人レッスン1回無料(9回分の料金で10回受講可能)・対面レッスン各回200円引き
+              </p>
+            <h3>②対面レッスンコース</h3>
+            <p>
+              半年分1万3500円・対面レッスン27回分(1回500円)
+            </p>
+            <h3>③個人レッスン5000円コース</h3>
+            <p>
+              個人レッスン10回
+            </p>
+            <br>
+    </div>
+  </div>
+
+
 
   <div class="greeting">
     <div class="greeting_box">
@@ -56,37 +98,65 @@
     </a>
   </div>
 
-  <div class="box">
-    <div class="box11">
-      <h1>活動実績<br></h1>
-      <p>
-        ここに文章を書いていく
-      </p>
-      <a href="<?php echo esc_url( home_url( '/' ) ); ?>achievements" class="btn-border-bottom">詳しくはこちら</a>
+  
+
+
+  <div class="box1">
+    <div class="box13">
+    <h1>講師の紹介<br></h1>
+
+
+    <div class="intor_box">
+      <div class="img_box">
+        <img src="<?php echo get_theme_file_uri('img\S__100843686.jpg'); ?>" alt="" />
+      </div>
+      <div class="com_box">
+        <h2>ニコル・マグティン</h2>
+        <p>
+          ここに自己紹介やら、出身やらを書き連ねることができる
+        </p>
+      </div>
+    </div>
+    
+    <div class="intor_box">
+      <div class="img_box">
+        <img src="<?php echo get_theme_file_uri('img\S__100843689.jpg'); ?>" alt="" />
+      </div>
+      <div class="com_box">
+        <h2>ルイーザ・カイザー</h2>
+        <p>
+          ここに自己紹介やら、出身やらを書き連ねることができる
+        </p>
+      </div>
     </div>
 
-    <div class="box12">
-      <h1>英会話情報<br></h1>
-      <a href="<?php echo esc_url( home_url( '/' ) ); ?>information" class="btn-border-bottom">詳しくはこちら</a>
+    <div class="intor_box">
+      <div class="img_box">
+        <img src="<?php echo get_theme_file_uri('img\S__100843688.jpg'); ?>" alt="" />
+      </div>
+      <div class="com_box">
+        <h2>パトリック</h2>
+        <p>
+          ここに自己紹介やら、出身やらを書き連ねることができる
+        </p>
+      </div>
+    </div>
+
+    <div class="intor_box">
+      <div class="img_box">
+        <img src="<?php echo get_theme_file_uri('img\yagi.jpg'); ?>" alt="" />
+      </div>
+      <div class="com_box">
+        <h2>小川徹</h2>
+        <p>
+          ここに自己紹介やら、出身やらを書き連ねることができる
+        </p>
+      </div>
+    </div>
+
+    <a href="<?php echo esc_url( home_url( '/' ) ); ?>introduction" class="btn-border-bottom">詳しくはこちら</a>
     </div>
   </div>
-  
-  <div class="box">
-    <div class="box11">
-      <h1>講師の紹介<br></h1>
-      <a href="<?php echo esc_url( home_url( '/' ) ); ?>introduction" class="btn-border-bottom">詳しくはこちら</a>
-    </div>
-
-    <div class="box12">
-      <h1>お問い合わせ<br></h1>
-      <a href="<?php echo esc_url( home_url( '/' ) ); ?>contact" class="btn-border-bottom">詳しくはこちら</a>
-    </div>
-  </div>
- 
-
- 
-  
-  
   
 
 <?php get_footer(); ?>

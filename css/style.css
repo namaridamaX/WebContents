@@ -1,5 +1,5 @@
 body{
-  /* background-color: whitesmoke; */
+  /* background-color: darkgray; */
   /* background: linear-gradient(to top, #000, #000) repeat-y center/1px; */
 }
 nav {
@@ -9,6 +9,8 @@ nav {
     padding-top: 5px;
     box-sizing: border-box;
     display: flex;
+    position: fixed;
+    top: 0;
   }
   ul {
     display: flex;
@@ -30,6 +32,7 @@ nav {
   /* background: #2275b8; */
 }
 .log_img img{
+  margin-top: 5vw;
   width: 100%;
 }
 .log_img{
@@ -40,16 +43,15 @@ nav {
   margin-top: 15%;
   margin-bottom: 15%;
   font-family: '游明朝';
-  /* background-color: #6091d3; */
 }
 #txt{
-  font-size: 150%;
+  font-size: 2vw;
   font-family: '游明朝';
 }
 .greeting{
   align-items: center;
-  /* background-color: darkgrey; */
-  padding: 10vw;
+  background-color:white;
+  padding: 10vw 10vw 3vw 10vw;
 }
 .greeting_box{
   width: 80vw;
@@ -112,7 +114,7 @@ nav {
   text-decoration:underline;
 }
 .box11{
-  width: 35vw;
+  width: 50%;
   padding: 0.5em 1em;
   margin: 2em 0 0 0;
   color: #5d627b;
@@ -121,29 +123,80 @@ nav {
   box-shadow: 0 3px 5px rgba(0, 0, 0, 0.22);
 }
 .box12{
-  width: 35vw;
+  width: 60%;
   padding: 0.5em 1em;
-  margin: 2em 0 0 10vw;
+  margin: 2em 0 0 0;
   color: #5d627b;
   background: white;
   border-top: solid 5px #5d627b;
   box-shadow: 0 3px 5px rgba(0, 0, 0, 0.22);
 }
+.box13{
+  width: 80vw;
+  padding: 0.5em 1em;
+  margin: 2em 0 0 0;
+  color: #5d627b;
+  background: white;
+  border-top: solid 5px #5d627b;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.22);
+}
+.box14{
+  width: 50vw;
+  padding: 0.5em 1em;
+  margin-left: auto;
+  margin-right: auto;
+  color: #5d627b;
+  background: white;
+  border-top: solid 5px #5d627b;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.22);
+}
+.box_img1{
+  width: 40%;
+  padding: 0.5em 1em;
+  margin: 2em 0 0 0;
+}
+.box_img2{
+  width: 50%;
+  padding: 0.5em 1em;
+  margin: 2em 0 0 0;
+}
 .box11 a {
   margin: 0; 
   padding: 0;
-  font-size:xx-large
+  font-size: 1vw
 }
 .box12 a {
   margin: 0; 
   padding: 0;
-  font-size:xx-large
+  font-size: 1vw;
+}
+.box13 a {
+  margin: 0; 
+  padding: 0;
+  font-size: 1vw;
 }
 .box{
   display: flex;
   align-items: center;
   text-align: center;
+  padding: 5vw 5vw 5vw 5vw;
+  font-family: '游明朝';
+  background-color: darkgray;
+}
+.box1{
+  align-items: center;
+  text-align: center;
   padding: 5vw 10vw 5vw 10vw;
+  font-family: '游明朝';
+  background-color:whitesmoke
+}
+.box2{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding: 5vw 10vw 5vw 10vw;
+  font-family: '游明朝';
+  background-color:whitesmoke
 }
 .btn-border-bottom {
   position: relative;
@@ -171,5 +224,82 @@ nav {
   top: calc(100% - 3px);
 }
 .box img{
-  width: 10vw;
+  width: 27vw;
+}
+.box12 p{
+  text-align: center;
+  margin: 0;
+  width: 66%;
+  margin: auto;
+}
+.img_box{
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.com_box{
+  width: 50%;
+}
+.img_box img{
+  width: 25vw;
+}
+.intor_box{
+  display: flex;
+  margin-bottom: 5vw;
+}
+footer{
+  left: 0;
+  height: 7vw;
+  width: 100%;
+  display: flex;
+  background-color:black;
+  align-items: center;
+}
+footer a{
+  margin-left: auto;
+  margin-right: 3vw;
+}
+
+.insta_btn {
+  display: inline-block;
+  text-align: center;/*中央揃え*/
+  color: #2e6ca5;/*文字色*/
+  font-size: 20px;/*文字サイズ*/
+  text-decoration: none;/*下線消す*/
+}
+
+.insta_btn:hover {/*ホバー時*/
+  color:#668ad8;/*文字色*/
+  transition: .5s;/*ゆっくり変化*/
+}
+
+.insta_btn .insta{/*アイコンの背景*/
+  position: relative;/*相対配置*/
+  display: inline-block;
+  width: 50px;/*幅*/
+  height: 50px;/*高さ*/
+  background: -webkit-linear-gradient(135deg, #427eff 0%, #f13f79 70%) no-repeat;
+  background: linear-gradient(135deg, #427eff 0%, #f13f79 70%) no-repeat;/*グラデーション①*/
+  overflow: hidden;/*はみ出た部分を隠す*/
+  border-radius: 13px;/*角丸に*/
+
+}
+
+.insta_btn .insta:before{/*グラデーションを重ねるため*/
+  content: '';
+  position: absolute;/*絶対配置*/
+  top: 23px;/*ずらす*/
+  left: -18px;/*ずらす*/
+  width: 60px;/*グラデーションカバーの幅*/
+  height: 60px;/*グラデーションカバーの高さ*/
+  background: -webkit-radial-gradient(#ffdb2c 10%, rgba(255, 105, 34, 0.65) 55%, rgba(255, 88, 96, 0) 70%);
+  background: radial-gradient(#ffdb2c 10%, rgba(255, 105, 34, 0.65) 55%, rgba(255, 88, 96, 0) 70%);/*グラデーション②*/
+}
+
+.insta_btn .fa-instagram {/*アイコン*/
+  color: #FFF;/*白に*/
+  position: relative;/*z-indexを使うため*/
+  z-index: 2;/*グラデーションより前に*/
+  font-size: 35px;/*アイコンサイズ*/
+  line-height: 50px;/*高さと合わせる*/
 }
